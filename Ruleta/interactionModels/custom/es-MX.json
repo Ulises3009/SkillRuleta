@@ -1,0 +1,62 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Finalizar",
+            "Terminar",
+            "No jugar",
+            "No"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "GiraRuleta",
+          "samples": [
+            "si",
+            "girar ruleta"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "OpcionesIncorrectas",
+          "samples": [
+            "Girar",
+            "Jugar una vez más",
+            "Jugar otra vez",
+            "Volver a jugar ",
+            "Jugar de nuevo ",
+            "Jugar"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "ruleta colores"
+    }
+  }
+}
